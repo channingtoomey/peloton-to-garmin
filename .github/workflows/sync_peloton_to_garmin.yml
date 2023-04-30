@@ -8,7 +8,7 @@ on:
     inputs:
       workoutsToDownload:
         type: number
-        default: "5"
+        default: "25"
   schedule:
     - cron: '0 1 * * *'
 
